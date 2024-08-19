@@ -19,8 +19,20 @@ function MainContent() {
          <img src="/images/mainpc.png" alt="asd"></img>
 
         </div>
-        
+
+
       </div>
+      <div className=" flex justify-center bg-blue-400 w-100% h-16">
+          <div className=" w-5 h-5 bg-blue-600">
+          <p className="font-bold">Nuestras Marcas </p>
+          </div>
+          <div className="w-5 h-5 bg-blue-600">
+            
+            </div>
+      </div>
+
+
+    
     
     </>
     
