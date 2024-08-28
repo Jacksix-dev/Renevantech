@@ -22,12 +22,15 @@ function MainContent() {
 
 
       </div>
-      <div className=" flex justify-center bg-blue-400 w-100% h-16">
-          <div className=" w-5 h-5 bg-blue-600">
-          <p className="font-bold">Nuestras Marcas </p>
+      <div className=" flex  justify-center space-x-16 bg-blue-100 w-100% h-32">
+          <div className="flex rounded-lg w-100% h-100% bg-blue-100">
+          <p className=" m-auto font-bold text-2xl">Nuestras Marcas </p>
           </div>
-          <div className="w-5 h-5 bg-blue-600">
-            
+          <div className=" flex space-x-10 w-100% h-100% bg-blue-200">
+            <img className="" src="/images/asus_icon.png"alt="icon"></img>
+            <img  className="" src="/images/asus_icon.png"alt="icon"></img>
+            <img className="" src="/images/asus_icon.png"alt="icon"></img>
+            <img className="" src="/images/asus_icon.png"alt="icon"></img>
             </div>
       </div>
 
