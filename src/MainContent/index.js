@@ -16,7 +16,7 @@ function MainContent() {
             </button>
           </div>
 
-         <img src="/images/mainpc.png" alt="asd"></img>
+         <img src="/images/mainpc.png" alt="Computer Gabinet"></img>
 
         </div>
 
