@@ -21,4 +21,5 @@ rad.json
 #Test results file
 TestResults.xml
 #Test results file
-.node_modules/
+node_modules/
+.cache/
