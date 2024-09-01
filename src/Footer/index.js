@@ -6,15 +6,15 @@ import { FaFacebook, FaTwitter, FaInstagram, FaGithub, FaPhone, FaEnvelope, FaMa
 
 function Footer() {
   return (
-    <footer className="bg-gray-100 py-10">
+    <footer className="bg-blue-100 py-10">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           {/* Company Information and Contact Details */}
-          <div className="w-full md:w-1/4 mb-6 md:mb-0">
+          <div className="w-full md:w-1/4 m mb-6 md:mb-0">
             <img src="/images/rtlogo.png"></img>
             <p className="text-gray-500 mb-4">
                <br />
-             Aguante la milanesa
+             
             </p>
             
           </div>
