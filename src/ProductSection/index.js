@@ -1,14 +1,21 @@
 import React, { useState, useEffect } from 'react';
 
-
-
 const ProductSection = () => {
   const items = [
-    { id: 1, title: 'Pc AMD Ryzen 5 4600G 16Gb SSD...', price: '$384990', image: 'https://via.placeholder.com/200' },
-    { id: 2, title: 'Pc AMD Ryzen 5 5600G 8Gb SSD...', price: '$419990', image: 'https://via.placeholder.com/200' },
-    { id: 3, title: 'Pc AMD Ryzen 7 5700G 8Gb SSD...', price: '$519990', image: 'https://via.placeholder.com/200' },
-    { id: 4, title: 'Pc AMD Ryzen 7 5700G 8Gb SSD...', price: '$649990', image: 'https://via.placeholder.com/200' },
-    { id: 5, title: 'Pc Intel i7 10700F 16Gb SSD...', price: '$699990', image: 'https://via.placeholder.com/200' }
+    { id: 1, title: 'Pc AMD Ryzen 5 4600G 16Gb SSD...', price: '$1', image: 'https://via.placeholder.com/200' },
+    { id: 2, title: 'Pc AMD Ryzen 5 5600G 8Gb SSD...', price: '$2', image: 'https://via.placeholder.com/200' },
+    { id: 3, title: 'Pc AMD Ryzen 7 5700G 8Gb SSD...', price: '$3', image: 'https://via.placeholder.com/200' },
+    { id: 4, title: 'Pc AMD Ryzen 7 5700G 8Gb SSD...', price: '$4', image: 'https://via.placeholder.com/200' },
+    { id: 5, title: 'Pc AMD Ryzen 5 4600G 16Gb SSD...', price: '$5', image: 'https://via.placeholder.com/200' },
+    { id: 6, title: 'Pc AMD Ryzen 5 5600G 8Gb SSD...', price: '$6', image: 'https://via.placeholder.com/200' },
+    { id: 7, title: 'Pc AMD Ryzen 7 5700G 8Gb SSD...', price: '$7', image: 'https://via.placeholder.com/200' },
+    { id: 1, title: 'Pc AMD Ryzen 5 4600G 16Gb SSD...', price: '$8', image: 'https://via.placeholder.com/200' },
+    { id: 2, title: 'Pc AMD Ryzen 5 5600G 8Gb SSD...', price: '$9', image: 'https://via.placeholder.com/200' },
+    { id: 3, title: 'Pc AMD Ryzen 7 5700G 8Gb SSD...', price: '$10 ', image: 'https://via.placeholder.com/200' },
+    { id: 4, title: 'Pc AMD Ryzen 7 5700G 8Gb SSD...', price: '$11', image: 'https://via.placeholder.com/200' },
+    { id: 5, title: 'Pc AMD Ryzen 5 4600G 16Gb SSD...', price: '$12', image: 'https://via.placeholder.com/200' },
+    { id: 6, title: 'Pc AMD Ryzen 5 5600G 8Gb SSD...', price: '$13', image: 'https://via.placeholder.com/200' },
+    { id: 7, title: 'Pc AMD Ryzen 7 5700G 8Gb SSD...', price: '$14', image: 'https://via.placeholder.com/200' }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

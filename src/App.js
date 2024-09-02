@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Marcas } from './Marcas';
 import { ProductSection } from './ProductSection';
 import {HeaderNav} from './Headernav'
 import {MainContent} from './MainContent'
@@ -13,11 +14,13 @@ function App() {
     <div className="App">
      <HeaderNav> </HeaderNav>
      <MainContent></MainContent>
+     <h1 className='text-2xl	'>Ultimas Entradas</h1>
      <ProductSection></ProductSection>
      <Services></Services>
      <Stats></Stats>
      <Description></Description>
-
+     <h1 className='text-2xl	'>Nuestras marcas</h1>
+     <Marcas></Marcas>
      <Footer></Footer>
     </div>
   );
